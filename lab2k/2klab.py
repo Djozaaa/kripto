@@ -27,7 +27,7 @@ lengths = [2, 3, 4, 5] + list(range(10, 21))
 keys = {length: generate_key(length) for length in lengths}
 
 
-with open("/home/liza/фті/3curs/kripto/f.txt", "r", encoding="utf-8") as file:
+with open("f.txt", "r", encoding="utf-8") as file:
     text = file.read()
 
 
