@@ -157,13 +157,4 @@ print("Шифротекст:", formatted_ciphertext)
 
 
 
-# decrypted_message = Decrypt(ciphertext, private_key_a)
-# print("Розшифроване повідомлення:", decrypted_message)
-# assert message == decrypted_message, "Розшифрування некоректне!"
 
-# signature = Sign(message, private_key_a)
-# is_valid = Verify(signature, message, public_key_a)
-
-# print("\nЦифровий підпис:", signature)
-# print("Перевірка підпису:", is_valid)
-# assert is_valid, "Підпис некоректний!"
