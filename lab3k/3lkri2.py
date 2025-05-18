@@ -67,7 +67,7 @@ def decrypt_and_validate(ciphertext, common_bigrams, frequent_bigrams):
 common_bigrams = ["ст", "но", "то", "на", "ен"]
 
 
-ciphertext = read_ciphertext("/home/liza/фті/3curs/kripto/3/07.txt")
+ciphertext = read_ciphertext("/home/liza/fti/3curs/kripto/kriptok/lab3k/07.txt")
 ciphertext = re.sub(r'[^а-яА-Я ]', '', ciphertext.lower())  
 
 
